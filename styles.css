@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#visualization {
+    width: 100%;
+    height: 100vh;
+}
+
+.axis text {
+    font-size: 12px;
+}
+
+.bar {
+    cursor: pointer;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.back-button {
+    cursor: pointer;
+}
+
+.back-button rect {
+    fill: lightgray
+}
+
+.back-button text {
+    font-size: 14px;
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
